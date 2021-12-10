@@ -2,25 +2,44 @@ body{
     background: url(numeros.jpg) no-repeat;
     background-size: cover ;  
     opacity: 80%;
+    
 }
 header{
-    color: rgb(93, 3, 105);
+    color: white;
     text-align: center;
-    box-shadow: 1px 1px 3px white;
-    text-shadow: 1px 1px 3px white;
+    text-shadow: 1px 1px 2px black;
 }
 section{
-    background-color: rgba(217, 219, 53, 0.466);
+    background-color: rgba(217, 219, 53, 0.0);
     border-radius: 10px;
     padding: 15px;
     width: 500px;
     margin: auto;
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.438);
-
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.);
+   
+}
+select{
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.0);    
+    color: white;
+    border: black;
+    text-align: center;
+    font-size: 20px;
+    width: 100%;
+    text-shadow: 0px 1px 2px black;
+    
+}
+option{
+    text-align: center;
+    padding: 3px;
+    font-size: 20px;
 }
 div{
     text-align: left;
     padding: 8px;
+    color: white;
+    text-shadow: 1px 1px 2px rgb(7, 7, 7);
+
     
 }
 footer{
